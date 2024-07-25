@@ -1,0 +1,35 @@
+/* src/components/Navbar.css */
+
+/* Styles pour la barre de navigation */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* Fond blanc */
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd; /* Bordure légère en bas */
+    position: fixed; /* Fixer la barre de navigation en haut */
+    top: 0; /* Positionner en haut */
+    left: 0;
+    width: 100%; /* Prendre toute la largeur */
+    z-index: 1000; /* Assurer que la navbar soit au-dessus des autres éléments */
+  }
+  
+  /* Styles pour le logo de la barre de navigation */
+  .navbar-logo {
+    width: 120px; /* Ajustez la taille du logo */
+    margin-right: 20px; /* Espacement entre le logo et le titre */
+  }
+  
+  /* Styles pour le titre de la barre de navigation */
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Couleur du texte en noir/gris foncé */
+  }
+/* src/App.css */
+
+/* Ajoutez un espace en haut pour le contenu principal */
+.main-content {
+    margin-top: 60px; /* Ajustez cette valeur en fonction de la hauteur de votre navbar */
+  }
+    

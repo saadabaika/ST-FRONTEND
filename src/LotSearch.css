@@ -1,0 +1,89 @@
+/* LotSearch.css */
+
+/* Fond de la page entière */
+body {
+    background-color: #5c7ac090; /* Couleur de fond claire */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Conteneur principal du composant */
+  .lot-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #ffffff; /* Fond blanc pour le conteneur */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Largeur max pour le conteneur */
+  }
+  
+  /* Logo de l'entreprise */
+  .logo {
+    width: 150px; /* Ajustez la taille du logo si nécessaire */
+    margin-bottom: 20px;
+  }
+  
+  /* Styles pour le champ de saisie */
+  .lot-search-input {
+    padding: 14px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Largeur du champ de saisie */
+    box-sizing: border-box;
+  }
+  
+  /* Styles pour le bouton */
+  .lot-search-button {
+    padding: 14px 24px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #5c7ac090;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Largeur du bouton */
+    box-sizing: border-box;
+  }
+  
+  .lot-search-button:hover {
+    background-color: #5c7ac0db;
+  }
+  
+  /* Styles pour les détails du lot */
+  .lot-details {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .lot-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .lot-details p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* Styles pour les messages d'erreur */
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Styles pour le texte en général */
+  .lot-search-container {
+    color: #333; /* Couleur du texte en noir/gris foncé */
+  }
+  
+  .lot-search-input,
+  .lot-search-button {
+    color: #333; /* Couleur du texte dans les éléments de saisie et bouton */
+  }
+  
