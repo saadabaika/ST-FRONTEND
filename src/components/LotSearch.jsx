@@ -1,4 +1,3 @@
-// src/components/LotSearch.js
 import React, { useState } from 'react';
 import axios from 'axios';
 import '../LotSearch.css';
@@ -13,6 +12,14 @@ const LotSearch = () => {
         if (!idlot.trim()) {
             // Affiche un message d'erreur si le champ est vide
             setError('Please enter a Lot ID');
+            setLot(null);
+            return;
+        }
+
+        // Validation de l'ID du lot
+        if (!idlot.startsWith('cz') || idlot.length !== 10) {
+            // Affiche un message d'erreur si l'ID du lot ne commence pas par "cz" ou n'a pas 10 caractères
+            setError('Lot ID must start with "cz" and be 10 characters long');
             setLot(null);
             return;
         }
